@@ -1,0 +1,68 @@
+
+
+
+header {
+    background-color: #fffaea;
+}
+
+.LogoImage {
+    width: 23%;
+    padding: 1%;
+    vertical-align: top;
+    
+}
+ul {
+
+    vertical-align:top;
+    width: 50%;
+    text-align: center;
+
+    font-family:'Montserrat', sans-serif;
+    font-weight:bold;
+    font: size 24px;
+
+   
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+.HeroSection {
+    background-color: #FFECD0;
+    padding: 200px;
+}
+
+.RecentWork {
+    background-color: #fffaea;
+}
+
+.casestudy1{
+    background-color: #FFECD0;
+}
+
+.casestudy2{
+    background-color: #FFECD0;
+}
+
+footer{
+    background-color: #FFCA0A;
+}
+
+h1, p {
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-end;
+   flex-direction: row;
+
+
+}
+
+
+
+font-family:'Montserrat', sans-serif;
+font-weight:normal
+font: size 24px;
