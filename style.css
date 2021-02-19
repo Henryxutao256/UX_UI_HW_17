@@ -7,11 +7,15 @@ header {
 
 .LogoImage {
     border: 1px solid blue;
-    width: 100%;
     vertical-align: top;
     text-align: center;
     
 }
+
+#profilepic {
+    width: 357px;
+}
+
 ul {
     border: 1px solid red;
     vertical-align:top;
@@ -19,21 +23,28 @@ ul {
 
     font-family:'Montserrat', sans-serif;
     font-weight:bold;
-    font: size 24px;
-
-   
+    font: size 24px;   
 }
 
 li {
     border: 1px solid green;
     text-align: center;
     display: inline-block;
-    justify-content: space-between;
+    margin: 0 5ch;
+
 }
+
+#hey {
+    font-family:'Montserrat';
+    font-weight:bold;
+    font: size 48px;  
+}
+
 
 .HeroSection {
     background-color: #FFECD0;
-    padding: 200px;
+    padding: 100px;
+    height: 714px;
 
 }
 
@@ -58,12 +69,11 @@ h1, p {
    align-items: flex-start;
    justify-content: flex-end;
    flex-direction: row;
-
-
 }
 
 
 
-font-family:'Montserrat', sans-serif;
-font-weight:normal
-font: size 24px;
+/* font-family:'Montserrat', sans-serif;
+    font-weight:bold;
+    font: size 24px;   */
+
