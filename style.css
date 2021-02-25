@@ -1,3 +1,6 @@
+body {
+    background-color: #fffaea;
+}
 
 p.summary{
     font-family:"Montserrat", sans-serif;
@@ -21,10 +24,6 @@ header {
     grid-area: heroleft heroright;
 }
 
-.mywork {
-    border: 1px solid red;
-
-}
 
 .RecentWork {
     background-color: #fffaea;
@@ -41,12 +40,11 @@ header {
 }
 
 #profilepic {
-    width: 357px;
-    height: 551px;
+    /* width: 357px; */
+    height: 500px;
 }
 
 ul {
-    
     vertical-align:top;
     text-align: center;
 
@@ -71,38 +69,69 @@ li {
 }
 
 
-
 .casestudy1{
-    background-color: #FFECD0;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     align-items: center;
-
-    
+    justify-content: center;
 }
 
 .casestudyimg1 {
-    width: 1000px;
-    border: 1px solid blue;
-    height: 346px;
-
+    margin-left: -100px;
+    /* border: 1px solid blue; */
+   
 }
 
 .description {
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     width: 600px;
-    height: 400px;
-
+    height: 225px;
+    padding-left: 30px;
+    background-color: #FFECD0
+}
+.description p{
+    padding-right: 120px;
 }
 .casestudy2{
     background-color: #FFECD0;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.description2 {
+    width: 600px;
+    height: 225px;
+    padding-right: 30px;
+}
+.casestudyimg2 {
+    border: 1px solid blue;
+    
 }
 
 footer{
     background-color: #FFCA0A;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+ 
+.footnav {
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
 
-.amawatch {
-    height: 346px;
-    width: 466px;
+.Email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.eemail {
+    margin-top: 10px;
+    font-weight: bolder;
 }
